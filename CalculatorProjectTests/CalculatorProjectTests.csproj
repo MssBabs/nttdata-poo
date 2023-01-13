@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="CalculatorTests.cs" />
     <Compile Include="Loops\PrintProductTests.cs" />
+    <Compile Include="PensionPlan\Services\PensionPlan\AndorraPensionPlanCalculateTests.cs" />
+    <Compile Include="PensionPlan\Services\PensionPlan\SpainPensionPlanCalculateTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
