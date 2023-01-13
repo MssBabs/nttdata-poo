@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CalculatorProject.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,6 +49,14 @@
     <Compile Include="Calculator.cs" />
     <Compile Include="Loops\PrintProduct.cs" />
     <Compile Include="Loops\Product.cs" />
+    <Compile Include="PensionPlan\Models\InputParametersPensionPlan.cs" />
+    <Compile Include="PensionPlan\Models\PensionPlan.cs" />
+    <Compile Include="PensionPlan\Services\InputParameters\ConsoleInputParameters.cs" />
+    <Compile Include="PensionPlan\Program.cs" />
+    <Compile Include="PensionPlan\Services\OutputParameters\ConsoleOutputParameters.cs" />
+    <Compile Include="PensionPlan\Services\PensionPlan\AndorraPensionPlanCalculate.cs" />
+    <Compile Include="PensionPlan\Services\PensionPlan\PensionPlanCalculate.cs" />
+    <Compile Include="PensionPlan\Services\PensionPlan\SpainPensionPlanCalculate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
